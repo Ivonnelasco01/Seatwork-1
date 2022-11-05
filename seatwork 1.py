@@ -13,22 +13,24 @@ def menu():
     print("5. Arrange in descending order")
     print("6. Arrange in accending order")
     print("----------------------")
-menu()
 
 #option
-option  = input("What do you want to do? Please pick a number from 1-6. >>")
 
-if option == "1":
-    print("What do you want to add? >>")
-elif option == "2":
-    print("What do you want to insert? >>")
-elif option == "3":
-    print("What do you want to modify? >>")
-elif option == "4":
-    print("What do you want to delete? >>")
-elif option == "5":
-    print("")
-elif option == "6":
-    print("")
-else:
-    print("Thats not in the menu, Please pick another!")
+while True:
+    menu()
+    option  = input("What do you want to do? Please pick a number from 1-6. >>")
+    
+    if option == "1":
+        print("What do you want to add? >>")
+    elif option == "2":
+        print("What do you want to insert? >>")
+    elif option == "3":
+        print("What do you want to modify? >>")
+    elif option == "4":
+        print("What do you want to delete? >>")
+    elif option == "5":
+        print("")
+    elif option == "6":
+        print("")
+    else:
+        print("Thats not in the menu, Please pick another!")
