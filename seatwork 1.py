@@ -15,4 +15,5 @@ def menu():
     print("----------------------")
 menu()
 
-
+#option
+option  = input("Please pick a number from 1-6.")
